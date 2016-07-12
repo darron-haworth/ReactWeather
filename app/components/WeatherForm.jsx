@@ -1,14 +1,12 @@
 var React = require('react');
-var WeatherMessage = require('WeatherMessage');
 
 var WeatherForm = React.createClass({
     render: function () {
         return (
             <div>
-            <form>
+            <form action="/" >
                 <div><input type="text"></input></div>
-                <div><button>Get Weather</button></div>                
-                <WeatherMessage />
+                <input type="submit" value="Get Weather"></input>             
             </form>
             </div>
         );
