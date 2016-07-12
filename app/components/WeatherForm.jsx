@@ -5,9 +5,11 @@ var WeatherForm = React.createClass({
     render: function () {
         return (
             <div>
-                <div><input></input></div>
+            <form>
+                <div><input type="text"></input></div>
                 <div><button>Get Weather</button></div>                
                 <WeatherMessage />
+            </form>
             </div>
         );
     }
