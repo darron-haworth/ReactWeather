@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './app/app.jsx', 
+    entry: './app/app.jsx',
     output: {
         path: __dirname,
         filename: './public/bundle.js'
@@ -29,5 +29,6 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             }
         ]
-    }
+    },
+    devtool: 'cheap-module-eval-source-map'
 };
